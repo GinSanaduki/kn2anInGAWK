@@ -85,6 +85,6 @@ function MainConv(){
 	ConvTo28 = gensub(/万([０-９][０-９][０-９])/,"１０\\1","g",ConvTo27);
 	ConvTo29 = gensub(/万([０-９][０-９])/,"１００\\1","g",ConvTo28);
 	ConvTo30 = gensub(/万([０-９])/,"１０００\\1","g",ConvTo29);
-	ConvTo31 = gensub(/万/,"１００００","g",ConvTo29);
+	ConvTo31 = gensub(/万/,"１００００","g",ConvTo30);
 }
 
